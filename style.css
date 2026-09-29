@@ -1,0 +1,35 @@
+body{
+    background-color:orange;
+}
+.head{
+    color: darkblue;
+}
+#bglime{
+    background-color: lime;
+}
+#red{
+    color: red;
+}
+p{
+    color: white;
+}
+#para{
+    color: green;
+}
+#para>span{
+    color: black;
+    font-size:x-large;
+}
+li:first-child a{
+    background-color: yellow;
+}
+li:last-child a{
+    background-color: blue;
+    color: white;
+}
+ol>li:nth-child(3){
+    color: red;
+}
+ol>li:nth-child(2){
+    color: blue;
+}
